@@ -20,11 +20,11 @@ def suggest_career_from_chatgpt(prompt):
 
 st.title("Smart career counseling app")
 model = "text-davinci-002"
-prompt = st.text_input("Enter Text:", value= "write something")
+prompt = st.text_input("Enter Text:", value="write something")
 
-if st.button("submite"):
+if st.button("submit"):
     with st.spinner("processing"):
-        sugest = suggest_career_from_chatgpt(prompt)
-        st.succes("data sent")
+        suggest = suggest_career_from_chatgpt(prompt)
+        st.success("data sent")
 
-    st.write(f"sugetsted: {sugest}")
+    st.write(f"suggested: {suggest}")
