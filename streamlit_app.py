@@ -26,7 +26,7 @@ st.title("Smart career counseling app")
 model = "text-davinci-002"
 
 text1 = st.text_input("What are your primary interests and passions?", value="Try to write a complete sentece")
-text2 = st.text_input("What are your top skills and areas of expertise?")
+text2 = st.text_input("What are your top skills and areas of expertise?", value="Try to write a complete sentece")
 text3 = st.text_input("What type of work environment do you prefer?", value="Try to write a complete sentece")
 text4 = st.text_input("What is your preferred work schedule (e.g. full-time, part-time, flexible hours)?", value="Try to write a complete sentece")
 text5 = st.text_input("Do you have any specific career goals or aspirations?", value="Try to write a complete sentece")
