@@ -25,16 +25,16 @@ st.title("Smart career counseling app")
 
 model = "text-davinci-002"
 
-text1 = st.text_input("What are your primary interests and passions?", value="Try to write a complete sentece")
-text2 = st.text_input("What are your top skills and areas of expertise?", value="Try to write a complete sentece")
-text3 = st.text_input("What type of work environment do you prefer?", value="Try to write a complete sentece")
-text4 = st.text_input("What is your preferred work schedule (e.g. full-time, part-time, flexible hours)?", value="Try to write a complete sentece")
-text5 = st.text_input("Do you have any specific career goals or aspirations?", value="Try to write a complete sentece")
-text6 = st.text_input("What kind of tasks or activities do you enjoy most?", value="Try to write a complete sentece")
-text7 = st.text_input("What are your strongest personality traits?", value="Try to write a complete sentece")
-text8 = st.text_input("Are you comfortable working independently or do you prefer working as part of a team?:", value="Try to write a complete sentece")
-text9 = st.text_input("What is your educational background and level of experience in the workforce?", value="Try to write a complete sentece")
-text10 = st.text_input("What are your salary expectations and desired benefits?", value="Try to write a complete sentece")
+text1 = st.text_input("What are your primary interests and passions?", placeholder="Try to write a complete sentece")
+text2 = st.text_input("What are your top skills and areas of expertise?", placeholder="Try to write a complete sentece")
+text3 = st.text_input("What type of work environment do you prefer?", placeholder="Try to write a complete sentece")
+text4 = st.text_input("What is your preferred work schedule (e.g. full-time, part-time, flexible hours)?", placeholder="Try to write a complete sentece")
+text5 = st.text_input("Do you have any specific career goals or aspirations?", placeholder="Try to write a complete sentece")
+text6 = st.text_input("What kind of tasks or activities do you enjoy most?", placeholder="Try to write a complete sentece")
+text7 = st.text_input("What are your strongest personality traits?", placeholder="Try to write a complete sentece")
+text8 = st.text_input("Are you comfortable working independently or do you prefer working as part of a team?:", placeholder="Try to write a complete sentece")
+text9 = st.text_input("What is your educational background and level of experience in the workforce?", placeholder="Try to write a complete sentece")
+text10 = st.text_input("What are your salary expectations and desired benefits?", placeholder="Try to write a complete sentece")
 
 prompt = [text2, text3, text4, text5, text6, text7, text8, text9, text10]
 
