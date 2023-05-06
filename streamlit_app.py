@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def suggest_career_from_chatgpt(prompt):
     prompt = f"Based on your interests and skills, suggest a career path: {prompt}"
