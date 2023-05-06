@@ -1,7 +1,14 @@
 import openai
 import streamlit as st
+from pathlib import Path
+import configparser
 
-openai.api_key = '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'
+
+fpath = Path('config.txt')
+cfg_reader = configparser.ConfigParser()
+cfg_reader.read(str(fpath))
+openai.api_key = cfg_reader.get('API_KEY','OPENAI_API_KEY')
+
 
 def suggest_career_from_chatgpt(prompt):
     prompt = f"Based on your interests and skills, suggest a career path: {prompt}"
